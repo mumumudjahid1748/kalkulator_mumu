@@ -1,0 +1,121 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+    background-image: url(mumu.jpg.);
+    background-repeat: no-repeat ;
+    background-attachment: fixed;
+    background-size: 10100px 600px;
+    
+}
+
+.container
+{
+ width: 45%;
+ height: 50vh;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 12px 12px 20px  #0080ff,
+               -12px -12px 20px #00d9ff;
+}
+
+.display #screen
+{
+ 
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none ;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f1;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px rgba(2, 63, 124),
+                inset -8px -8px 8px #ffffff;
+}
+
+.btns 
+{
+    width: 100%;
+    margin:  1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.btns .row button
+{
+    width: 75px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    transition: .1s;
+    box-shadow: 5px 5px 8px #00000013,
+                -5px -5px 8px #ffffff;
+}
+
+
+.btns .row button:hover
+{
+    box-shadow: inset 5px 5px 8px rgb(255, 255, 255),
+                inset -5px -5px 8px rgb(95, 0, 248);
+                background: #fff;
+
+}
+
+#btnNum
+{
+    background:#080077; 
+    color: #fff;
+
+}
+#btnNum:hover
+{
+    box-shadow: inset 5px 5px 8px#696b6c,
+                inset -5px -5px 8px #ffffff;
+}
+
+
+#eval {
+     background: #33ccff;
+     color: #fff;
+     box-shadow: inset 5px 5px 8px #000000,
+            inset -5px -5px 8px #00ace6;
+}
+
+#eval:hover
+{
+    box-shadow: inset 5px 5px 8px #003de6,
+              inset -5px -5px 8px #00ace6;
+}
+#ac {
+    background:  #33cca8;
+    color: #fff;
+}
+#ac:hover
+{
+    box-shadow: inset 5px 5px 8px #0ab78e,
+              inset -5px -5px 8px #33cca8;
+}
+
+#ce 
+{
+    background:  #1a41f1;
+    color: #fff;
+}
+#ce:hover{
+    box-shadow: inset 5px 5px 8px #9b000a,
+              inset -5px -5px 8px #ff3333;
+}
+
